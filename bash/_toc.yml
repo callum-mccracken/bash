@@ -2,8 +2,11 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro
+root: episodes/01-intro
 chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+- file: episodes/02-filedir
+- file: episodes/03-create
+- file: episodes/04-pipefilter
+- file: episodes/05-loop
+- file: episodes/06-script
+- file: episodes/07-find
